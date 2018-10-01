@@ -30,6 +30,9 @@ class CalculatorTests extends \PHPUnit\Framework\TestCase
         }
     }
 
+    /**
+     * @return array
+     */
     public function sumDataProvider() {
         $default = ['1', '2', '3'];
         $exception = [1, 2, \Exception::class];
